@@ -257,7 +257,7 @@ footer p {
 -----------------------*/
 
 
-/* Mobile Devices */
+/* For Mobile Devices */
 
 @media only screen and (max-width: 688px) {
     main {
@@ -311,6 +311,6 @@ footer p {
     /* footer */
     footer img {
         width: 250px;
-        height: 63px;
+        height: 62px;
     }
 }
