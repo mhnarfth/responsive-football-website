@@ -193,3 +193,60 @@ form input:focus {
     border: 0;
     cursor: pointer;
 }
+
+
+/*---- footer css ----*/
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 438px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.social-nav {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.social-nav li {
+    list-style: none;
+    width: 32px;
+    height: 32px;
+    background: #e7e7e8;
+    margin-right: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.social-nav li a {
+    color: #969bab;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.social-nav li a i {
+    font-size: 17px;
+}
+
+.social-nav li:hover a {
+    color: #e02c6d;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 64px;
+    color: black;
+}
